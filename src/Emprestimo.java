@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.UUID;
 
 public class Emprestimo {
@@ -5,16 +6,16 @@ public class Emprestimo {
     private String id;
     private String usuarioId;
     private String exemplarId;
-    private String dataDeEmprestimo;
-    private String dataPrevistaDeDevolucao;
-    private String dataDeEntregaReal;
+    private Date dataDeEmprestimo;
+    private Date dataPrevistaDeDevolucao;
+    private Date dataDeEntregaReal;
     private Integer situacao;
 
     public Emprestimo() {
         this.id = UUID.randomUUID().toString();
     }
 
-    public Emprestimo(String dataDeEmprestimo, String dataPrevistaDeDevolucao, String dataDeEntregaReal, Integer situacao) {
+    public Emprestimo(Date dataDeEmprestimo, Date dataPrevistaDeDevolucao, Date dataDeEntregaReal, Integer situacao) {
         this.id = UUID.randomUUID().toString();
         this.setDataDeEmprestimo(dataDeEmprestimo);
         this.setDataPrevistaDeDevolucao(dataPrevistaDeDevolucao);
@@ -38,27 +39,27 @@ public class Emprestimo {
         this.exemplarId = exemplarId;
     }
 
-    public String getDataDeEmprestimo() {
+    public Date getDataDeEmprestimo() {
         return dataDeEmprestimo;
     }
 
-    public void setDataDeEmprestimo(String dataDeEmprestimo) {
+    public void setDataDeEmprestimo(Date dataDeEmprestimo) {
         this.dataDeEmprestimo = dataDeEmprestimo;
     }
 
-    public String getDataPrevistaDeDevolucao() {
+    public Date getDataPrevistaDeDevolucao() {
         return dataPrevistaDeDevolucao;
     }
 
-    public void setDataPrevistaDeDevolucao(String dataPrevistaDeDevolucao) {
+    public void setDataPrevistaDeDevolucao(Date dataPrevistaDeDevolucao) {
         this.dataPrevistaDeDevolucao = dataPrevistaDeDevolucao;
     }
 
-    public String getDataDeEntregaReal() {
+    public Date getDataDeEntregaReal() {
         return dataDeEntregaReal;
     }
 
-    public void setDataDeEntregaReal(String dataDeEntregaReal) {
+    public void setDataDeEntregaReal(Date dataDeEntregaReal) {
         this.dataDeEntregaReal = dataDeEntregaReal;
     }
 
