@@ -2,20 +2,19 @@ import java.util.UUID;
 
 public class Livro {
 
-
     private String id;
+    private String ISBN;
     private String titulo;
     private String autor;
     private String ano;
     private Integer edicao;
     private String editora;
-    private String ISBN;
 
-    public Livro (){
+    public Livro() {
         this.id = UUID.randomUUID().toString();
     }
 
-    public Livro (String titulo, String autor, String ano, Integer edicao, String editora, String ISBN){
+    public Livro(String titulo, String autor, String ano, Integer edicao, String editora, String ISBN) {
         this.id = UUID.randomUUID().toString();
         this.setTitulo(titulo);
         this.setAutor(autor);
@@ -30,7 +29,7 @@ public class Livro {
     }
 
     public String getTitulo() {
-        return titulo;
+        return this.titulo;
     }
 
     public void setTitulo(String titulo) {
@@ -38,7 +37,7 @@ public class Livro {
     }
 
     public String getAutor() {
-        return autor;
+        return this.autor;
     }
 
     public void setAutor(String autor) {
@@ -46,7 +45,7 @@ public class Livro {
     }
 
     public String getAno() {
-        return ano;
+        return this.ano;
     }
 
     public void setAno(String ano) {
@@ -54,7 +53,7 @@ public class Livro {
     }
 
     public Integer getEdicao() {
-        return edicao;
+        return this.edicao;
     }
 
     public void setEdicao(Integer edicao) {
@@ -62,7 +61,7 @@ public class Livro {
     }
 
     public String getEditora() {
-        return editora;
+        return this.editora;
     }
 
     public void setEditora(String editora) {
@@ -70,7 +69,7 @@ public class Livro {
     }
 
     public String getISBN() {
-        return ISBN;
+        return this.ISBN;
     }
 
     public void setISBN(String ISBN) {
