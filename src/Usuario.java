@@ -8,16 +8,16 @@ public class Usuario {
     private String telefone;
     private String matricula;
 
-    public Usuario () {
+    public Usuario() {
         this.id = UUID.randomUUID().toString();
     }
 
-    public Usuario (String nome, String CPF, String telefone, String matricula) {
+    public Usuario(String nome, String CPF, String telefone) {
         this.id = UUID.randomUUID().toString();
         this.setNome(nome);
         this.setCPF(CPF);
         this.setTelefone(telefone);
-        this.setMatricula(matricula);
+        this.setMatricula(UUID.nameUUIDFromBytes(CPF.getBytes()).toString());
     }
 
     public String getId() {
