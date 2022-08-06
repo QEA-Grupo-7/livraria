@@ -1,0 +1,64 @@
+[
+    {
+        "titulo": "Código Limpo",
+        "autor": "Robert Cecil Martin",
+        "ano": "2009",
+        "edicao": 1,
+        "editora": "Alta Books",
+        "ISBN": "8576082675"
+    },
+    {
+        "titulo": "É assim que acaba",
+        "autor": "Colleen Hoover",
+        "ano": 2018,
+        "edicao" : 8,
+        "editora": "Galera Record",
+        "ISBN": "978-85-01112-51-4"
+
+    },
+    {
+        "titulo": "A hipótese do amor",
+        "autor": "Ali Hazelwood",
+        "ano": 2022,
+        "edicao" : 1,
+        "editora": "Arqueiro",
+        "ISBN": "978-65-55653-30-4"
+
+    },
+    {
+        "titulo": "Os segredos da mente milionária",
+        "autor": "T. Harv Eker",
+        "ano": 1998,
+        "edicao" : 1,
+        "editora": "Sextante",
+        "ISBN": "978-85-75422-39-7"
+
+    },
+    {
+        "titulo": "Spy X Family Vol 01",
+        "autor": "Tatsuya Endo",
+        "ano": 2020,
+        "edicao" : 2,
+        "editora": "Panini",
+        "ISBN": "978-65-55123-03-6"
+
+    },
+    {
+        "titulo": "A Lista de Convidados",
+        "autor": "Lucy Foley",
+        "ano": 2021,
+        "edicao" : 1,
+        "editora": "Intrínseca",
+        "ISBN": "978-6555601503"
+    },
+    {
+        "titulo": "Verity",
+        "autor": "Colleen Hoover",
+        "ano": 2020,
+        "edicao" : 15,
+        "editora": "Galera",
+        "ISBN": "978-8501117847"
+    }
+
+
+]

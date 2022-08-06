@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Manoel Vinicius Kauê Alves",
+    "cpf": "822.692.390-59",
+    "matricula": "458",
+    "telefone": "(85) 7558-8554"
+  },
+  {
+    "nome": "Amanda Rosa Silveira",
+    "cpf": "436.276.341-44",
+    "matricula": "280",
+    "telefone": "(86) 2947-1105"
+  },
+  {
+    "nome": "Cauã Osvaldo Assunção",
+    "cpf": "360.764.861-12",
+    "matricula": "138",
+    "telefone": "(65) 3560-3880"
+  },
+  {
+    "nome": "Leandro Benício Drumond",
+    "cpf": "886.224.776-14",
+    "matricula": "329",
+    "telefone": "(92) 3715-7620"
+  },
+  {
+    "nome": "Igor Mateus da Silva",
+    "cpf": "555.130.565-18",
+    "matricula": "912",
+    "telefone": "(84) 3654-0252"
+  }
+]
