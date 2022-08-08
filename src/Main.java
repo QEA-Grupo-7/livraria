@@ -25,19 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite seu CPF: ");
-        String cpf = scanner.nextLine();
-
-        System.out.println("Digite seu nome: ");
-        String nome = scanner.nextLine();
-
-        System.out.println("Digite seu telefone: ");
-        String telefone = scanner.nextLine();
-
-        System.out.println("Cadastrando usuário...");
-        System.out.println("Cadastro realizado com sucesso!");
-
-        Usuario usuario = new Usuario(nome, cpf, telefone);
+        cadastrarUsuario(scanner);
 
         menu(scanner);
 
@@ -58,6 +46,22 @@ public class Main {
         // emprestimo.setDataDeEntregaReal(dataEntregaFigurativa);
 
         // verificarEntrega(emprestimo);
+    }
+
+    private static Usuario cadastrarUsuario(Scanner scanner) {
+        System.out.println("Digite seu CPF: ");
+        String cpf = scanner.nextLine();
+
+        System.out.println("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Digite seu telefone: ");
+        String telefone = scanner.nextLine();
+
+        System.out.println("Cadastrando usuário...");
+        System.out.println("Cadastro realizado com sucesso!");
+
+        return new Usuario(nome, cpf, telefone);
     }
 
     private static void menu(Scanner scanner) throws IOException {
